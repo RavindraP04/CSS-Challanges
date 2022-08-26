@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;800;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+body{
+    height: 100vh;
+}
+
+.footer{
+    position: relative;
+    top: 100%;
+    height: 58vh;
+}
+
+
+.heading{
+    position: absolute;
+    margin-left: 195px;
+    font-family: "Montserrat";
+    font-weight: 800;
+}
+
+.services{
+    position: absolute;
+    margin-left: 175px;
+    margin-top: 80px;
+}
+h4{
+    font-size: 20px;
+}
+p{
+    margin-top: 20px;
+}
+a{
+    color: #0d0d0d;
+    text-decoration: none;
+}
+
+
+.social-media{
+    position: absolute;
+    margin-left: 435px;
+    margin-top: 80px;
+}
+
+.links{
+    position: absolute;
+    margin-left: 680px;
+    margin-top: 80px;
+}
+
+.details{
+    position: absolute;
+    margin-left: 925px;
+    margin-top: 80px;
+}
+.mobile, 
+.mail{
+    margin-top: 20px;
+}
+
+footer{
+    text-align: center;
+    position: absolute;
+    width: 100%;
+    margin-top: 100%;
+    bottom: 0;
+    padding-bottom: 25px;
+}
+
+hr{
+    margin-bottom: 28px;
+}

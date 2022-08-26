@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;500;600;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+body{
+    background-image: url(/images/Untitled\ design.png);
+    background-size: cover;
+    font-family: "Montserrat";
+    position: relative;
+}
+.box-root{
+    position: absolute;
+    top: 60px;
+    left: 610px;
+}
+.box-root h1 a{
+    text-decoration: none;
+    color: #4D68E1;
+    font-family: "Montserrat";
+    letter-spacing: -2px;
+    font-size: 35px;
+}
+form{
+    background-color: #ffffff;
+    color: #0d0d0d;
+    font-family: "Montserrat";
+    position: absolute;
+    top: 123px;
+    left: 454px;
+    padding-left: 56px;
+    padding-right: 56px;
+    padding-top: 158px;
+    height: 315px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 7px rgba(117, 130, 131, 0.726);
+}
+.padding-bottom--15{
+    position: absolute;
+    top: 165px;
+    left: 505px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    z-index: 1;
+    color: #1A1F36;
+    font-size: 18px;
+    padding-bottom: 15;
+}
+.field{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: -72px;
+    left: -4px;
+    margin-bottom: 24px;
+}
+.email{
+    font-family: "Montserrat";
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.email-box{
+    height: 45px;
+    width: 350px;
+    border-radius: 5px;
+    border: 2px solid #E3E8EE;
+}
+.grid--50-50{
+    display: flex;
+    font-family: "Montserrat";
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.reset-pass a{
+    text-decoration: none;
+    color: #5469D4;
+    position: relative;
+    left: 114px;
+}
+.pword-box{
+    height: 45px;
+    width: 350px;
+    border-radius: 5px;
+    border: 2px solid #E3E8EE;
+}
+.field-checkbox{
+    padding-right: 20px;
+    font-family: "Montserrat";
+    font-weight: bold;
+    font-size: 14px;
+}
+input[type="checkbox"]{
+    width: 1.15em;
+    height: 1.15em;
+    border: 0.15em solid #E3E8EE;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.submit input{
+    height: 45px;
+    width: 350px;
+    border-radius: 5px;
+    background-color: #5469D4;
+    border: none;
+    font-family: "Montserrat";
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 15px;
+}
+.ssolink{
+    text-decoration: none;
+    text-align: center;
+    color: #5469D4;
+    font-weight: bold;
+    font-family: "Montserrat";
+}
+.footer-link{
+    font-family: "Montserrat";
+    position: relative;
+    top: 625px;
+    text-align: center;
+    font-size: 14px;
+}
+.footer-link a{
+    text-decoration: none;
+    padding-left: 5px;
+    color: #4D68E1;
+}
+.listing {
+    padding-top: 35px;
+}
+.listing a{
+    color: #758283;
+    padding-left: 15px;
+    padding-right: 15px;
+}
